@@ -1,0 +1,260 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", inital-scale="1.0">
+
+        <!---Google Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+
+        <!--- Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Ron Gie Mandac Portfolio</title>
+        
+
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo/rgalogos.png" alt="">
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#works" class="nav__link">My Works</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <button id="back-to-top-btn"><i class="fa-solid fa-angles-up"></i></button>
+              
+            <!--- Home -->
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hi, I am <strong>Ron Gie Mandac</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">BS Information Technology</p>
+                <img src="img/profile/My Profile 2.jpg" class="intro__img">
+            </section>
+
+            <!--- My Services -->
+            <section class="my-services" id="services">
+                <h2 class="section__title section__title--services">My Skills</h2>
+                <div class="services">
+
+                    <div class="service">
+                        <h3>Designing</h3>
+                        <p> Designing or creating visual concepts such as advertisements, 
+                            brochures, logo, and application user-interface or assets 
+                            with the use of computer software.</p>
+                    </div> <!-- service-->
+
+                    <div class="service">
+                        <h3>Editing</h3>
+                        <p>Editing raw footages to produce a cohesive video or film 
+                            and manipulation of graphics elements to create simple
+                            animated graphics designs. </p>
+                    </div> <!-- service-->
+
+                    <div class="service">
+                        <h3>Technical</h3>
+                        <p>Configuring and assembling desktop or laptop and troubleshooting 
+                            computer software and hardware problems. </p>
+                    </div> <!-- service-->
+
+                </div> <!-- services-->
+
+                <div class="adobe">   
+                    <a class="adobe__item"><img src="img/adobe/photoshop.png" alt="" class="adobe__img"></a>
+                    <a class="adobe__item"><img src="img/adobe/illustrator.png" alt="" class="adobe__img"></a>
+                    <a class="adobe__item"><img src="img/adobe/premiere-pro.png" alt="" class="adobe__img"></a>
+                    <a class="adobe__item"><img src="img/adobe/indesign.png" alt="" class="adobe__img"></a>
+                    <a class="adobe__item"><img src="img/adobe/after-effects.png" alt="" class="adobe__img"></a>
+                    <a class="adobe__item"><img src="img/adobe/xd.png" alt="" class="adobe__img"></a>
+                </div> 
+
+                <a href="#works" class="btn">My Works</a>
+
+
+            </section>
+
+            <!--- About Me -->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">About Me</h2>
+                <p class="section__subtitle section__subtitle--about">Graduate of Bachelor of Science in Information Technology</p>
+
+                <div class="about-me__body">
+                    <p>I'm a graduate of BS Information Technology at Pamantasan ng Lungsod ng Valenzuela. 
+                        I enjoy designing graphic contents, application user interfaces, editing videos, and doing computer things such as assembling, configuring, and troubleshooting, and proficient in using with Microsoft Office products (Word, Excel, Powerpoint).</p>
+                    <p>Now, I'm seeking a job opportunity that is related to my skills and knowledge.
+                    </p>
+
+                </div>
+                
+                <img src="img/profile/My Profile.jpg" alt="" class="about-me__img">
+
+
+            </section>
+
+
+            <!--- My Works -->
+            <section class="my-works" id="works">
+                <h2 class="section-title section__title--works">My Works</h2>
+                <p class="section__subtitle section__subtitle--works">School Projects / Practice Designs</p>
+
+                <!--- Works Nav-->
+                    <nav class="nav2">
+                        <div class="tabs">
+                                <button data-tab-target="#tab1" id="btn1" class="active tab">Game Poster</button>
+                                <button data-tab-target="#tab2" id="btn2" class="tab">Game UI and Assets</button>
+                                <button data-tab-target="#tab3" id="btn3" class="tab">Ads Posters</button>
+                                <button data-tab-target="#tab4" id="btn4" class="tab">Anime</button>
+                                <button data-tab-target="#tab5" id="btn5" class="tab">NBA</button>
+                                <button data-tab-target="#tab6" id="btn6" class="tab">KPOP</button>
+                                <button data-tab-target="#tab7" id="btn7" class="tab">Logo Designs</button>
+                                <button data-tab-target="#tab8" id="btn8" class="tab">Videos</button>
+                                <button data-tab-target="#tab9" id="btn9" class="tab">Others</button>
+                        </div>
+                    </nav>
+                
+            <div class="portfolio">
+                <!--TAB1 Game Poster-->    
+                <div id="tab1" data-tab-content class="active" class="image-portfolio">
+
+                <!--- Portfolio Game --->
+                        <img src="img/game/Bird Game Pose.jpg" alt="" class="portfolio__img">
+                        <img src="img/game/Rodents Game Pose.jpg" alt="" class="portfolio__img">
+                </div>
+
+                <!--TAB2 Game UI and Assets--> 
+                <div id="tab2" data-tab-content class="image-portfolio">
+
+                    <!--- Portfolio UI/ASSETS--->
+                        <img src="img/game/mainmenu.jpg" alt="" class="portfolio__img">
+                        <img src="img/game/gameselection.jpg" alt="" class="portfolio__img">
+                        <img src="img/game/birdgame.jpg" alt="" class="portfolio__img">
+                        <img src="img/game/rodentgame.jpg" alt="" class="portfolio__img">
+                </div>
+
+                <!--TAB3 Ads-->
+                <div id="tab3" data-tab-content class="image-portfolio">
+
+                    <!--- Portfolio Ads --->
+                        <img src="img/poster/brand/Stepn Shoes.jpg" alt="" class="portfolio__img">
+                        <img src="img/poster/brand/Apex Mobile.jpg" alt="" class="portfolio__img">
+                        <img src="img/poster/brand/Sarc's Burger.jpg" alt="" class="portfolio__img">
+                </div>
+
+                <!--TAB4 Anime-->
+                <div id="tab4" data-tab-content class="image-portfolio">
+
+                    <!--- Portfolio Anime --->
+                        <img src="img/poster/anime/Asta Poster.jpg" alt="" class="portfolio__img">
+                        <img src="img/poster/anime/Yuno Poster.jpg" alt="" class="portfolio__img">
+                </div>
+
+                <!--TAB5 NBA-->
+                <div id="tab5" data-tab-content class="image-portfolio">
+
+                <!--- Portfolio NBA --->                       
+                        <img src="img/poster/nba/Curry Poster.jpg" alt="" class="portfolio__img">
+                        <img src="img/poster/nba/Durant Poster.jpg" alt="" class="portfolio__img">
+                        <img src="img/poster/nba/Kobe Poster.jpg" alt="" class="portfolio__img">
+                </div>
+
+                <!--TAB6 kpop--> 
+                <div id="tab6" data-tab-content class="image-portfolio">
+
+                <!--- Portfolio Kpop --->
+                        <img src="img/poster/kpop/Dahyun Punk.jpg" alt="" class="portfolio__img">
+                        <img src="img/poster/kpop/Nayeon Pop.jpg" alt="" class="portfolio__img">
+                </div>
+
+                <!---Popup--->
+                <div class="popup-image">
+                    <span>&times;</span>
+                    <img src="img/game/Bird Game Pose.jpg" alt="">
+                </div>
+
+                <!--TAB7 Logo Designs--> 
+                <div id="tab7" data-tab-content class="image-portfolio">
+
+                <!--- Portfolio Logo --->
+                        <video  width="854" height="480" controls>
+                            <source src="vid/Shoe Logo Final.mp4" type=video/mp4 controls id="videos">
+                        </video>
+                        <video  width="854" height="480" controls>
+                            <source src="vid/Triple M New_2.mp4" type=video/mp4 controls id="videos">
+                        </video>
+                </div>
+
+                <!--TAB8 Videos--> 
+                <div id="tab8" data-tab-content class="image-portfolio">
+
+                <!--- Portfolio Videos --->
+                        <video  width="854" height="480" controls>
+                            <source src="vid/OJT BSP Promotional Video.mp4" type=video/mp4 controls id="videos">
+                        </video>
+                        <video  width="854" height="480" controls>
+                            <source src="vid/ADIDAKS.mp4" type=video/mp4 controls id="videos">
+                        </video>
+                </div>    
+
+                <!--TAB9 Others--> 
+                <div id="tab9" data-tab-content class="image-portfolio">
+
+                <!--- Portfolio Others --->
+                        <img src="img/Others/coa.jpg" alt="" class="portfolio__img">
+                        <img src="img/Others/cop.jpg" alt="" class="portfolio__img">
+                        <img src="img/game/ROBOTS Pose.jpg" alt="" class="portfolio__img">
+                        <img src="img/Others/Capture.PNG" alt="" class="portfolio__img">
+                        <img src="img/Others/FRONT VIEW.png" alt="" class="portfolio__img">
+                        <img src="img/Others/Kiosk.png" alt="" class="portfolio__img">
+                        <img src="img/Others/TblCbnt.png" alt="" class="portfolio__img">
+                        
+                        
+                </div>
+            </div>
+            </section>
+    
+
+            
+            <footer class="footer">
+                <a href="mailto:mandac.rongie@gmail.com" class="footer__link">mandac.rongie@gmail.com</a>
+                <ul class="social-list">
+
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.facebook.com/lebRongie30/">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="mailto:mandac.rongie@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com/rongiealfred">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>      
+                </ul>
+            </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
