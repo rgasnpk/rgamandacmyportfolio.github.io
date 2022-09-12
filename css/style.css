@@ -659,3 +659,8 @@ header {
       transform: translate3d(0, 100%, 0);
     }
   }
+
+  #mobile-num {
+    margin-top: 1em;
+    font-size: var(--fs-h3);
+  }
